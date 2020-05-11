@@ -25,7 +25,7 @@ To run YouQueue, simply type `python youqueue.py`. To exit, press `Ctrl-C`.
 Now that you have YouQueue running, you can send an `HTTP GET` request to ask to
 download a video:
 
-    `curl http://your-host:port/https://www.youtube.com/watch?v=dQw4w9WgXcQ`
+`curl http://your-host:port/https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 
 You should get back an `HTTP 202` response with an empty body. No, I am not
 doing much in the way of error checking or handling. I do print out some
